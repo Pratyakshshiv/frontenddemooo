@@ -15,7 +15,7 @@ const ForgotPassword = () => {
 
     const sendOtp = async () => {
         navigate('/verify')
-        const response = await fetch("https://login-eight-delta.vercel.app/api/forgot-pass", {
+        const response = await fetch("https://backend-peackock.onrender.com/api/forgot-pass", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
