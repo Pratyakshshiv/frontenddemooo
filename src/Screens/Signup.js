@@ -23,7 +23,7 @@ const Signup = () => {
             })
         )
 
-        const response = await fetch("https://login-eight-delta.vercel.app/api/createuser", {
+        const response = await fetch("https://backend-peackock.onrender.com/api/createuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
