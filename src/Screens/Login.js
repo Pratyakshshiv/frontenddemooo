@@ -17,7 +17,7 @@ const Login = () => {
                 password: credentials.password,
             })
         );
-        const response = await fetch("https://login-eight-delta.vercel.app/api/loginuser", {
+        const response = await fetch("https://backend-peackock.onrender.com/api/loginuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
