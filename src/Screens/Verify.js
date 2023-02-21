@@ -17,7 +17,7 @@ const Verify = () => {
         e.preventDefault();
 
 
-        const response = await fetch(`https://login-eight-delta.vercel.app/api/verifyUser/${email}`, {
+        const response = await fetch(`https://backend-peackock.onrender.com/api/verifyUser/${email}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
