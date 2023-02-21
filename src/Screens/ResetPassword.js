@@ -15,7 +15,7 @@ const ResetPassword = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (details.password == details.confirmPassword) {
-            const response = await fetch(`https://login-eight-delta.vercel.app/api/resetPass/${otp}`, {
+            const response = await fetch(`https://backend-peackock.onrender.com/api/resetPass/${otp}`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
