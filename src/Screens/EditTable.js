@@ -22,7 +22,7 @@ const EditTable = () => {
     }, [])
 
     const loadUserDetails = async () => {
-        let response = await fetch(`https://login-eight-delta.vercel.app/api/userEdit/${id}`, {
+        let response = await fetch(`https://backend-peackock.onrender.com/api/userEdit/${id}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -35,7 +35,7 @@ const EditTable = () => {
 
     const edituserdetails = async () => {
         navigate("/display")
-        let response = await fetch(`https://login-eight-delta.vercel.app/api/userEdit/${id}`, {
+        let response = await fetch(`https://backend-peackock.onrender.com/api/userEdit/${id}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
