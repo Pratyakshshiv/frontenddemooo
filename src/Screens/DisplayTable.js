@@ -8,7 +8,7 @@ const DisplayTable = () => {
     var id = 0;
 
     const deleteClicked = async (ide) => {
-        let response = await fetch(`https://login-eight-delta.vercel.app/api/deleteUser/${ide}`, {
+        let response = await fetch(`https://backend-peackock.onrender.com/api/deleteUser/${ide}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
@@ -18,7 +18,7 @@ const DisplayTable = () => {
     }
 
     const loadData = async () => {
-        let response = await fetch("https://login-eight-delta.vercel.app/api/userData", {
+        let response = await fetch("https://backend-peackock.onrender.com/api/userData", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
